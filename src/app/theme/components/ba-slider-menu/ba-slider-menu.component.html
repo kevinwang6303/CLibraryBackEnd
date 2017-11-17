@@ -1,0 +1,110 @@
+<div class="sidebar_layout" [@transMenu]="menuShow">
+  <div class="logo">
+    <img src="/assets/images/LOGO.png" alt="">
+  </div>
+  <section class="calc_height">
+    <div class="menu" [ngClass]="{'active':state === 'expanded'}">
+      <div class="ground_header" (click)="checkStatus()">
+        <span class="text_name">分類維護</span>
+        <span class="icon-play3"></span>
+      </div>
+      <ul class="list_ul" @bodyExpansion *ngIf="state === 'expanded'">
+        <li class="list_li">
+          bbbbbbbbbbb
+        </li>
+        <li class="list_li">
+          bbbbbbbbbbb
+        </li>
+        <li class="list_li">
+          bbbbbbbbbbb
+        </li>
+        <li class="list_li">
+          bbbbbbbbbbb
+        </li>
+      </ul>
+    </div>
+    <div class="menu" [ngClass]="{'active':state === 'expanded'}">
+        <div class="ground_header" (click)="checkStatus()">
+          <span class="text_name">分類維護</span>
+          <span class="icon-play3"></span>
+        </div>
+        <ul class="list_ul" @bodyExpansion *ngIf="state === 'expanded'">
+          <li class="list_li">
+            bbbbbbbbbbb
+          </li>
+          <li class="list_li">
+            bbbbbbbbbbb
+          </li>
+          <li class="list_li">
+            bbbbbbbbbbb
+          </li>
+          <li class="list_li">
+            bbbbbbbbbbb
+          </li>
+        </ul>
+      </div>
+      <div class="menu" [ngClass]="{'active':state === 'expanded'}">
+          <div class="ground_header" (click)="checkStatus()">
+            <span class="text_name">分類維護</span>
+            <span class="icon-play3"></span>
+          </div>
+          <ul class="list_ul" @bodyExpansion *ngIf="state === 'expanded'">
+            <li class="list_li">
+              bbbbbbbbbbb
+            </li>
+            <li class="list_li">
+              bbbbbbbbbbb
+            </li>
+            <li class="list_li">
+              bbbbbbbbbbb
+            </li>
+            <li class="list_li">
+              bbbbbbbbbbb
+            </li>
+          </ul>
+        </div>
+        <div class="menu" [ngClass]="{'active':state === 'expanded'}">
+            <div class="ground_header" (click)="checkStatus()">
+              <span class="text_name">分類維護</span>
+              <span class="icon-play3"></span>
+            </div>
+            <ul class="list_ul" @bodyExpansion *ngIf="state === 'expanded'">
+              <li class="list_li">
+                bbbbbbbbbbb
+              </li>
+              <li class="list_li">
+                bbbbbbbbbbb
+              </li>
+              <li class="list_li">
+                bbbbbbbbbbb
+              </li>
+              <li class="list_li">
+                bbbbbbbbbbb
+              </li>
+            </ul>
+          </div>
+          <div class="menu" [ngClass]="{'active':state === 'expanded'}">
+              <div class="ground_header" (click)="checkStatus()">
+                <span class="text_name">分類維護</span>
+                <span class="icon-play3"></span>
+              </div>
+              <ul class="list_ul" @bodyExpansion *ngIf="state === 'expanded'">
+                <li class="list_li">
+                  bbbbbbbbbbb
+                </li>
+                <li class="list_li">
+                  bbbbbbbbbbb
+                </li>
+                <li class="list_li">
+                  bbbbbbbbbbb
+                </li>
+                <li class="list_li">
+                  bbbbbbbbbbb
+                </li>
+              </ul>
+            </div>
+  </section>
+  <div class="toggle" (click)="checkMenuShow()">
+    <span class="icon-menu"></span>
+  </div>
+</div>

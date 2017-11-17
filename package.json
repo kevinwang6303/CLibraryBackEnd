@@ -4,11 +4,15 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "preclean": "rimraf package-lock.json && rimraf node_modules",
+    "clean": "ncu -a && ncu -d -a",
+    "start": "ng serve -o",
+    "build": "ng build --prod --build-optimizer",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preupdateAll": "npm run clean",
+    "updateAll": "npm install"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +27,7 @@
     "@angular/router": "^5.0.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
+    "sweetalert2": "^7.0.0",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {

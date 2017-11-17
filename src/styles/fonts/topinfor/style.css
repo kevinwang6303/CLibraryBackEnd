@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'topinfor';
+  src: url("fonts/topinfor.eot?hmwipn");
+  src: url("fonts/topinfor.eot?hmwipn#iefix") format("embedded-opentype"), url("fonts/topinfor.ttf?hmwipn") format("truetype"), url("fonts/topinfor.woff?hmwipn") format("woff"), url("fonts/topinfor.svg?hmwipn#topinfor") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="topinfor-"], [class*=" topinfor-"] {
+  font-family: 'topinfor' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.topinfor-user:before {
+  content: "\e971"; }
+
+.topinfor-cog:before {
+  content: "\e994"; }
+
+.topinfor-earth:before {
+  content: "\e9ca"; }
+
+.topinfor-enter:before {
+  content: "\ea13"; }
+
+.topinfor-exit:before {
+  content: "\ea14"; }

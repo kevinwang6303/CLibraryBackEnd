@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'styles/fonts/topinfor/style.css';
+@import 'styles/fonts/photo/style.css';
+body {
+  margin: 0 auto;
+  font-family: '微軟正黑體';
+  background: #ededed;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.text_c {
+  text-align: center;
+}

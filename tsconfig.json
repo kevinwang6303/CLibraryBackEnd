@@ -9,11 +9,17 @@
     "experimentalDecorators": true,
     "target": "es5",
     "typeRoots": [
-      "node_modules/@types"
+      "node_modules/@types",
+      "node_modules/@hamastar"
     ],
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@env": ["environments/environment"],
+      "@theme/*": ["app/theme/*"]
+    }
   }
 }
